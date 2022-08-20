@@ -1,0 +1,178 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+  }
+
+/* navbar section */
+
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.75rem;
+    height: 80px;
+    margin-left: 10rem;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 0.5rem;
+
+}
+#navbar ul li a:hover {
+    background: #336ea2;
+    border-radius: 5px;
+
+}
+
+
+/* home section */
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid gray;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#home .name {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#home .name h2 {
+    margin-bottom: 0.75rem;
+
+}
+
+#home .name p {
+    font-style: italic;
+}
+
+/* contact information */
+
+#usercont {
+    color: #fff;
+    padding: 1rem;
+}
+
+#usercont .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#usercont .items .item {
+    width: 100%;
+    text-align: center;
+
+
+}
+
+/* abut me */
+
+#aboutt {
+    color: #333;
+    text-align: center;
+    
+}
+
+#aboutt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #000;
+    
+    
+}
+
+.aboutt .about {
+    display: flex;
+   
+    margin-bottom: 0.5rem;
+    text-align: center;
+
+    
+}
+
+
+.aboutt .about .about-info .title {
+    letter-spacing: 0.2rem;
+    font-weight: 1000;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 98vw;
+    
+}
+
+.aboutt .about .about-info .description {
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.25rem;
+    opacity: 1rem;
+    text-align: center;
+    width: 98vw;
+    padding-left: 2rem;
+
+}
+
+.aboutt .about .about-info .instructor {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 1;
+    
+}
+
+/* contact */
+
+#contact {
+    color: #fff;
+    padding: 1rem;
+}
+
+#contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+#contact .contact-form ul li a {
+    
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#contact .contact-form ul li a:hover {
+    opacity: 0.8;
+}
